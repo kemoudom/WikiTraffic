@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="normal">Normal</string>
+    <string name="medium">Medium</string>
+    <string name="serious">Serious</string>
+    <string name="app_name">TJRS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_abc">abc</string>
+    
+	<string name="spot_degree_0">No Traffic Jam</string>
+	<string name="spot_degree_1">Slight Traffic Jam</string>
+	<string name="spot_degree_2">Meduim Traffic Jam</string>
+	<string name="spot_degree_3">Serious Traffic Jam</string>
+	<string name="spot_degree_unknown">Unknown Status</string>
+	<string name="menu_settings">Settings</string>
+    <string name="distance">Distance</string>
+    <string name="address">Address</string>
+    <string name="km">KM</string>
+    <string name="unknown">Unknown</string>
+    <string name="place">Places</string>
+    <string name="task">Places Having Problems</string>
+    <string name="place_on_map">Places on Map</string>
+    <string name="task_on_map">Places Having Problems on Map</string>
+    <string name="date_occur">Date occur</string>
+    <string name="time_occur">Time occur</string>
+    <string name="my_task">My Tasks</string>
+    <string name="load_more">Load More</string>
+    <string name="search_by_address">Address</string>
+    <string name="search_by_name">Name</string>
+    <string name="search">Search</string>
+    <string name="search_result">Places Found</string>
+    <string name="filter">Filter</string>
+    <string name="refresh">Refresh</string>
+    <string name="degree">Degree</string>
+    <string name="object">OBJECT</string>
+    <string name="no_object">No Object</string>
+    <string name="detail">DETAIL</string>
+    <string name="list">List</string>
+    <string name="search_result_title">Search Result</string>
+    <string name="my_location">My Location</string>
+    <string name="reason">Reason</string>
+    <string name="status">Status</string>
+    <string name="problem">PROBLEM</string>
+    <string name="change_status_button">Change Status</string>
+    <string name="control">CONTROL</string>
+    <string name="in_progress">Check In</string>
+    <string name="done">Done</string>
+    <string name="check_out">Check Out</string>
+    <string name="comment">COMMENT</string>
+    <string name="give_comment">Comment</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="add_place">Add Place</string>
+    <string name="calling_name">Calling Name</string>
+    <string name="telephone">Telephone</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="use_current_location">Use Current Location</string>
+    <string name="use_manual_location">Enter Location Manually</string>
+    <string name="cannot">Cannot</string>
+    <string name="album_name">CameraSample</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="browse_picture">Browse Picture</string>
+    <string name="report_problem">Report Problem</string>
+    <string name="problem_detail">PROBLEM DETAIL</string>
+    <string name="degree_mild">Mild</string>
+    <string name="degree_serious">Serious</string>
+    <string name="degree_blocking">Blocking</string>
+    <string name="history">History Report</string>
+    <string name="history_empty">No History</string>
+    <string name="check_out_time">Checkout Time</string>
+    <string name="check_out_date">Checkout Date</string>
+    <string name="check_in_time">Checkin Time</string>
+    <string name="check_in_date">Checkin Date</string>
+
+    <string name="connection_error">Connect Get Result From Server</string>
+    <string name="history_number">Number of Task History</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+	<string name="login_failed">Login failed</string>
+	<string name="login_failed_message">Incorrect username and/or password. Please try again.</string>
+	<string name="password">Password</string>
+	<string name="login">Login</string>
+	<string name="loggin">Logging in</string>
+	<string name="offline">Offline Data</string>
+	<string name="no_internet">No Internet Connection</string>
+	<string name="message_place_offline">Do you want to display offline data?</string>
+	<string name="agree">OK</string>
+	<string name="refuse">NO</string>
+	<string name="leave_comment">Leave comment</string>
+	<string name="confirm_in_progress">Setting Task to In Progress means that you will start doing the task right away. Do you want to continue?</string>
+	<string name="confirm_done">Setting Task to Done means that you have solved the problem successfully. Do you want to continue?</string>
+	<string name="confirm_check_out">Setting Task to In Progress means that you will stop doing the task. Do you want to continue?</string>
+	<string name="confirm">Confirm</string>
+	<string name="show_comment">Show Comment</string>
+	
+	<string name="view_location_on_map">View My Location</string>
+	<string name="choose_location_on_map">Choose Location</string>
+	<string name="close">Close</string>
+	<string name="click_to_capture">Click on map to capture location!</string>
+	<string name="inform_no_internet">Please connect to the Internet</string>
+	
+	<string name="downloading">Downloading</string>
+	<string name="download_offline_data">Downloading data for offline use</string>
+	
+	<string name="route">Route</string>
+	<string name="city">City/Province</string>
+	<string name="country">Country</string>
+	
+	<string name="place_having_problem_found">Places Having Problem</string>
+	<string name="place_found">Places</string>
+	
+	<string name="others">Others</string>
+	
+	<string name="syn_no_internet">Cannot download data from server</string>
+	<string name="no_local_data">No local data</string>
+	<string name="setting">Setting</string>
+	<string name="language">Language</string>
+	
+	<string name="logout">Logout</string>
+	<string name="done">Done</string>
+	
+	<string name="place">Place</string>
+	<string name="my_task">My Task</string>
+	<string name="add_place">Add Place</string>
+	<string name="report">Report</string>
+	
+	<string name="value_object">Value</string>
+	<string name="value_type_object">Value type</string>
+	<string name="add_object">Add Object</string>
+	<string name="value_boolean">Boolean</string>
+	<string name="value_integer">Integer</string>
+	<string name="value_float">Floating point</string>
+	<string name="value_string">Text Value</string>
+	
+	<string name="day">Day</string>
+	<string name="month">Month</string>
+	<string name="year">Year</string>
+	<string name="at_time">at</string>
+	
+	<string name="agent_responsible">Agent</string>
+	
+	<string name="have_problem">Have problem</string>
+	<string name="no_problem">No problem</string>
+	<string name="group_agent">Group Agent Responsible</string>
+	
+	<string name="description">Description</string>
+	<string name="sending_data">Sending data</string>
+	<string name="agent_logged_in">Agent</string>
+	<string name="at">Logged in</string>
+</resources>

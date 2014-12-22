@@ -1,0 +1,96 @@
+<resources>
+
+   <!-- Login  Layout -->
+    
+    <dimen name="cover_padding_login">20dp</dimen>
+    <dimen name="title_margin_top_login">30dp</dimen>
+    <dimen name="title_font_size_login">25dp</dimen>
+    <dimen name="sub_cover_margin_top_login">20dp</dimen>
+    <dimen name="edit_text_height">40dp</dimen>
+    <dimen name="edit_text_text_size">18dp</dimen>
+    <dimen name="clear_image_width">25dp</dimen>
+    <dimen name="clear_image_height">30dp</dimen>
+    
+    <!--  -->
+    
+    <!-- Home Menu  Layout -->
+    
+    <dimen name="grid_view_width">280dp</dimen>
+    <dimen name="grid_view_item_horizontal_spacing">70dp</dimen>
+    <dimen name="grid_view_item_vertical_spacing">35dp</dimen>
+    
+    <!--  -->
+    
+    
+    <!-- Button Done in Setting  Layout -->
+    <dimen name="margin_right_button_done">5dp</dimen>
+    <dimen name="margin_top_button_done">2dp</dimen>
+    <dimen name="margin_bottom_button_done">2dp</dimen>
+    <dimen name="padding_button_done">5dp</dimen>
+    <!--  -->
+    
+    
+    <!-- List place row  Layout -->
+    <dimen name="place_row_cover_padding">5dp</dimen>
+    <dimen name="place_row_image_width">90dp</dimen>
+    <dimen name="place_row_image_height">125dp</dimen>
+    <dimen name="place_row_name_text_size">16dp</dimen>
+    <integer name="place_row_name_text_length">42</integer>
+    <dimen name="place_row_info_text_size">14dp</dimen>
+    <integer name="place_row_info_text_length">37</integer>
+    <integer name="place_row_object_info_text_length">40</integer>
+	<dimen name="place_row_info_mappin_height">30dp</dimen>
+	<dimen name="place_row_info_mappin_width">25dp</dimen>
+    <!--  -->
+    
+     <!-- List My Task row  Layout -->
+    <dimen name="mytask_row_cover_padding">5dp</dimen>
+    <dimen name="mytask_row_image_width">110dp</dimen>
+    <dimen name="mytask_row_image_height">150dp</dimen>
+    <dimen name="mytask_row_name_text_size">16dp</dimen>
+    <integer name="mytask_row_name_text_length">35</integer>
+    <dimen name="mytask_row_info_text_size">14dp</dimen>
+    <integer name="mytask_row_info_text_length">32</integer>
+    <!--  -->
+    
+    <!-- Detail Place  -->
+    <dimen name="detail_place_image_width">120dp</dimen>
+    <dimen name="detail_place_image_height">100dp</dimen>
+    <dimen name="detail_place_info_height">100dp</dimen>
+    <dimen name="detail_place_name_text_size">16dp</dimen>
+    <dimen name="detail_place_info_text_size">14dp</dimen>
+    <!--  -->
+    
+    <!-- Detail My Task -->
+    <dimen name="detail_mytask_image_width">120dp</dimen>
+    <dimen name="detail_mytask_image_height">120dp</dimen>
+    <dimen name="detail_mytask_name_text_size">16dp</dimen>
+    <dimen name="detail_mytask_info_text_size">14dp</dimen>
+    <!--  -->
+    
+     <!-- Detail History -->
+    <dimen name="detail_history_image_width">120dp</dimen>
+    <dimen name="detail_history_image_height">120dp</dimen>
+    <dimen name="detail_history_name_text_size">16dp</dimen>
+    <dimen name="detail_history_info_text_size">14dp</dimen>
+    <!--  -->
+    
+    <!-- Add Object -->
+    <dimen name="add_object_title_text_size">16dp</dimen>
+    <!--  -->
+    
+    
+    <!-- Ballong  -->
+    <dimen name="ballon_image_height">70dp</dimen>
+    <!--  -->
+    
+    <!-- Dialog map  -->
+    <dimen name="dialog_map_height">220dp</dimen>
+    <dimen name="select_dialog_map_height">200dp</dimen>
+    <!--  -->
+    
+    
+    <integer name="marker_size">30</integer>
+    <dimen name="menu_margin_bottom">5dp</dimen>
+    
+</resources>

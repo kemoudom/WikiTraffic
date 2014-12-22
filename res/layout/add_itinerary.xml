@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@android:color/white"
+  android:orientation="vertical"
+  >
+  
+    	<LinearLayout
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:background="#073763"
+		  >
+		
+		  <TextView
+		   android:id="@+id/title"
+		   android:layout_width="fill_parent"
+		   android:layout_height="fill_parent"
+		   android:paddingTop="20dp"
+		   android:paddingBottom="20dp"
+		   android:paddingLeft="20dp"
+		   android:textSize="22sp"
+		   android:textColor="@android:color/white"
+		   android:text="Add Itinerary"
+		  />
+		
+		</LinearLayout>
+		
+    	 <EditText 
+   	   	android:id="@+id/name"
+   	   	android:layout_width="fill_parent"
+   	   	android:layout_height="wrap_content"  
+   	   	android:layout_marginTop="10dp"
+   	    android:hint="Name"
+   	    />
+    	  <EditText 
+   	   	android:id="@+id/description"
+   	   	android:layout_width="fill_parent"
+   	   	android:layout_height="wrap_content"
+   	    android:hint="Description"
+   	   	android:layout_marginTop="10dp"
+   	   />
+    
+	  <LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:background="@android:color/white"
+	  android:orientation="horizontal"
+	  android:layout_gravity="center"
+	  android:gravity="center"
+	  >
+		  <Button 
+		  	android:id="@+id/ok"
+		  	android:layout_width="100dp"
+		  	android:layout_height="wrap_content"
+		  	android:text="OK"
+		      
+		  />
+		  
+		  <Button 
+		  	android:id="@+id/cancel"
+		  	android:layout_width="100dp"
+		  	android:layout_height="wrap_content"
+		  	android:text="cancel"
+		      
+		  />
+		  
+		  
+	</LinearLayout>
+
+
+</LinearLayout>

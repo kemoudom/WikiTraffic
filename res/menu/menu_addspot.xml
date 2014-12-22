@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+ <!--    <item android:id="@+id/refresh" android:icon="@drawable/ic_refresh_inverse" android:showAsAction="always">
+	</item>
+ -->	
+    <item android:id="@+id/done" android:title="Done" android:showAsAction="always">
+	</item>	            
+   
+    
+</menu>

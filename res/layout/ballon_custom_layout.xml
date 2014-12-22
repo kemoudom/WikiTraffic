@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:orientation="horizontal" 
+	android:paddingBottom="15dip"
+	android:paddingLeft="10dip" 	 
+	android:id="@+id/balloon_main_layout"
+	android:background="@drawable/balloon_overlay_bg_selector"
+	android:paddingTop="0dip"
+	android:paddingRight="10dip"
+	> 
+
+    <!-- your click region must be some sort of layout container using @id/balloon_inner_layout -->
+    
+    <LinearLayout
+        android:id="@+id/balloon_inner_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" 
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dip" >
+            
+		        <ImageView
+		            android:id="@+id/balloon_item_image"
+		            android:layout_width="@dimen/place_row_image_width"
+		            android:layout_height="@dimen/ballon_image_height"
+		            android:paddingTop="3dip"
+		            android:paddingRight="10dip"
+		            android:scaleType="fitXY"
+		            android:paddingBottom="5dip"
+		           	 />
+		
+		        <LinearLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical"
+		             >
+		
+		            <TextView
+		                android:id="@+id/balloon_item_name"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:textColor="@android:color/primary_text_light"
+		                android:textSize="@dimen/place_row_name_text_size" />
+		            
+		            <TextView
+		                android:id="@+id/balloon_item_distance"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:textColor="@android:color/secondary_text_light"
+		                android:textSize="@dimen/place_row_info_text_size" />
+					
+		             <TextView
+			            android:id="@+id/balloon_item_address"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textColor="@android:color/secondary_text_light"
+			            android:textSize="@dimen/place_row_info_text_size" />
+				 
+	 
+					<LinearLayout 
+					    android:orientation="horizontal" 
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    
+					    >
+					        
+					    	
+					        <ImageView
+					            android:id="@+id/degreeIcon"
+					            android:layout_width="15dip"
+					            android:layout_height="15dip"
+					            android:paddingRight="5dip"
+					            android:layout_margin="3dp" />
+					        
+						
+					        <TextView
+								android:layout_width="wrap_content"
+								android:id="@+id/degreeText"
+								android:textSize="@dimen/place_row_info_text_size"
+								android:layout_height="wrap_content"
+								/>
+					
+					 </LinearLayout>
+					 
+					<LinearLayout
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:orientation="horizontal"
+			            android:paddingTop="3dip" 
+			            android:paddingBottom="3dip">
+					   
+			            <ImageButton 
+			             android:layout_width="30dp"
+			             android:layout_height="30dp"   
+			             android:id="@+id/add_button"
+			             android:visibility="gone"
+			             android:src="@drawable/add_balloon"
+			             />
+			           
+			            <ImageButton 
+			             android:layout_width="30dp"
+			             android:layout_height="30dp"   
+			             android:id="@+id/remove_button"
+			             android:visibility="gone"
+			             android:src="@drawable/delete_balloon"
+			             />
+					</LinearLayout>
+					
+					
+		        </LinearLayout>
+		</LinearLayout>
+		
+        
+    
+       
+	 
+    </LinearLayout>
+
+	 
+    
+    <LinearLayout 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="right"
+    android:paddingTop="5dip">
+          <ImageButton 
+              	android:id="@+id/detailMap"
+                android:src="@drawable/detail_map" 
+             	android:layout_width="wrap_content"
+             	android:layout_height="wrap_content"
+             	android:layout_gravity="right|center_vertical"
+             	android:layout_weight="1"	
+				android:background="@null"
+             />
+   </LinearLayout>
+	<!-- a close control is optional - it must use @id/balloon_close
+    
+	<ImageView
+        android:id="@+id/balloon_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="0dip"
+        android:paddingTop="5dip"
+        android:src="@drawable/close" /> -->
+</LinearLayout>
